@@ -1,0 +1,132 @@
+/* 기본 설정 */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff7f8;
+    font-family: "Pretendard", "Noto Sans KR", sans-serif;
+    color: #5f5a5a;
+    scroll-snap-type: y mandatory;
+}
+
+/* 텍스트 스타일 */
+h1 {
+  font-size: 3.2rem;
+  color: #b97a89;
+  margin-bottom: 1.5rem;
+  line-height: 60px;
+}
+
+h2 {
+  color: #c98b9b;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #5f5a5a;
+}
+
+hr {
+  color: #5f5a5a;
+}
+
+.sub-title {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  color: #c8a2aa;
+  margin-bottom: 1rem;
+}
+
+/* 리스트 */
+ul.list {
+  list-style: none;
+  padding-left: 0;
+  line-height: 30px;
+}
+
+ol.list {
+  padding-left: 20px;
+  line-height: 30px;
+}
+
+/* 폼 */
+input {
+    line-height: 20px;
+    font-size: medium;
+    border-color: #c98b9b;
+    border-radius: 10px;
+}
+
+/* 버튼 */
+button {
+    background-color: #f4c2c2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e7a9b5;
+}
+
+#errorMsg {
+  color: #b97a89;
+  margin-left: 10px;
+}
+
+/* 웹 표지 부분 */
+.top{
+    text-align: center;
+    margin: auto 0;
+    padding: 2rem 4rem; 
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-btn {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+/* 카드 섹션 */
+.card {
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 24px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin: 2.5rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* 카드 내부 배치 */
+.content {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.content img {
+    border-radius: 15px;
+}
+
+.content p {
+    flex: 1;
+}
+
+/* box 스타일 */
+.box {
+    flex: 1;
+}
+
+.box h3 {
+    margin-bottom: 0.5rem;
+}

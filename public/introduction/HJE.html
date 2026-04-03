@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>한주은의 자기소개 페이지</title>
+    <link rel="stylesheet" href="week1.css" />
+</head>
+
+<body>
+    <div class="top">
+        <p class="sub-title">MY SELF_INTRODUCTION</p>
+        <h1>아기사자 14기 한주은<br>저를 소개합니다</h1>
+        <p>
+            여름 햇살같은 미소로 여러분과 함께 하고 싶은<br>
+            프론트엔드 14기 아기사자 한주은입니다.
+        </p>
+    </div>
+
+    <a href="#startPoint" class="top-btn">🤍</a>
+
+    <div class="card" id="startPoint">
+        <h2>소개</h2>
+        <hr>
+        <div class="content">
+            <img src="../../../src/assets/intro.jpg" alt="" width="200px">
+            <ul class="list">
+                <li>Name | 한주은</li>
+                <li>Birthday | 2002.06.05</li>
+                <li>Major | 아동학과 / 전자컴퓨터공학과</li>
+                <li>MBTI | ENFP</li>
+                <li>Instagram | @estrella_del_dia65</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>목표</h2>
+        <hr>
+        <div class="content">
+            <ol class="list">
+                <li>멋쟁이사자처럼에서 팀원들과 함께 멋진 프로젝트들 완성하기</li>
+                <li>학회 2개 이상 논문 써서 발표하기</li>
+                <li>졸업작품 만족할 만한 퀄리티로 완성하기</li>
+                <li>꾸준히 운동하기</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>좋아하는 것/싫어하는 것</h2>
+        <hr>
+        <div class="content">
+            <div class="box">
+                <h3>Likes</h3>
+                <ol class="list">
+                    <li>강아지</li>
+                    <li>뮤지컬/연극</li>
+                    <li>야구</li>
+                </ol>
+            </div>
+
+            <div class="box">
+                <h3>Dislikes</h3>
+                <ol class="list">
+                    <li>향 진한 음식</li>
+                    <li>노력해도 성과 안 나오는 것</li>
+                    <li>벌레</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>간단 퀴즈</h2>
+        <hr>
+        <p>자기소개페이지 잘 읽으셨다면 무조건 맞을 수 있는 퀴즈!</p>
+
+        <p>1. 한주은의 나이는 만 OO세이다.</p>
+        <input type="number" id="ageInput" placeholder="숫자만 입력해주세요">
+        <br>
+        <p>2. 한주은이 좋아하는 스포츠는 OO이다.</p>
+        <input type="text" id="sportsInput" placeholder="스포츠 이름 입력해주세요">
+        <br><br>
+        <input type="text" id="nameInput" placeholder="이름을 입력해주세요">
+        <button id="submitButton">제출</button>
+        <span id="errorMsg"></span>
+    </div>
+
+    <script src="week1.js"></script>
+</body>
+
+</html>
